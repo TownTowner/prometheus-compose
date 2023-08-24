@@ -1,0 +1,38 @@
+{
+    "builder": {
+        "gc": {
+            "defaultKeepStorage": "20GB",
+            "enabled": true
+        }
+    },
+    "dns": [
+        "1.1.1.1",
+        "8.8.8.8"
+    ],
+    "experimental": false,
+    "features": {
+        "buildkit": true
+    },
+    "metrics-addr": "127.0.0.1:9323",
+    "registry-mirrors": [
+        "https://ung2thfc.mirror.aliyuncs.com",
+        "https://uyah70su.mirror.aliyuncs.com",
+        "https://registry.docker-cn.com",
+        "http://hub-mirror.c.163.com",
+        "https://docker.mirrors.ustc.edu.cn",
+        "https://docker.mirrors.sjtug.sjtu.edu.cn",
+        "https://mirror.ccs.tencentyun.com",
+        "https://docker.m.daocloud.io",
+        "https://dockerproxy.com",
+        "https://docker.nju.edu.cn",
+        "https://mirror.baidubce.com",
+        "https://gcr.io/google-containers",
+        "https://gcr.io/kubernetes-helm",
+        "https://gcr.io/google-containers/pause",
+        "https://quay.io/repository",
+        "https://registry.cn-hangzhou.aliyuncs.com",
+        "https://quay-mirror.qiniu.com",
+        "https://dockerhub.mirrors.nwafu.edu.cn",
+        "https://7bafc985f90c43b887a96c2b846cf984.mirror.swr.myhuaweicloud.com"
+    ]
+}
